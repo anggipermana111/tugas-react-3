@@ -61,7 +61,7 @@ const Section = () => {
                 };
                 return (
                         <div onClick={()=>{
-                            return alert("Nama Barang Ini adalah "+product.productName);
+                            return alert("Nama Barang Ini adalah "+product.productName+" dengan harga "+product.productPrice+" merupakan kualitas terbaik!");
                         }} style={style3} key={product.id}>
                             <img style={{
                                 width: "100%"
