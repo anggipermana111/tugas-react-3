@@ -56,7 +56,8 @@ const Section = () => {
                     minWidth: "300px",
                     padding: "5px",
                     border: "3px solid grey",
-                    borderRadius: "15px"
+                    borderRadius: "15px",
+                    backgroundColor: "lightgrey"
                 };
                 return (
                         <div onClick={()=>{
